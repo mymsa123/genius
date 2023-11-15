@@ -1,11 +1,10 @@
 {
-  "routes": [
-    { "handle": "filesystem" },
-    { "src": "/home", "dest": "/home.html" },
-    { "src": "/interviewtypes", "dest": "/interviewtypes.html" },
-    { "src": "/about", "dest": "/about.html" },
-    { "src": "/contact", "dest": "/contact.html" },
-    { "src": "/interview", "dest": "/interview.html" },
-    { "src": "/(.*)", "status": 404, "dest": "/404.html" }
+  "rewrites": [
+    { "source": "/home", "destination": "/home.html" },
+    { "source": "/interviewtypes", "destination": "/interviewtypes.html" },
+    { "source": "/about", "destination": "/about.html" },
+    { "source": "/contact", "destination": "/contact.html" },
+    { "source": "/interview", "destination": "/interview.html" },
+    { "source": "/(.*)", "destination": "/404.html" }
   ]
 }
