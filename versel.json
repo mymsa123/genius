@@ -1,0 +1,10 @@
+ {
+  "routes": [
+    { "src": "/home", "dest": "/your-home-page" },
+    { "src": "/interviewtypes", "dest": "/your-interviewtypes-page" },
+    { "src": "/about", "dest": "/your-about-page" },
+    { "src": "/contact", "dest": "/your-contact-page" },
+    { "src": "/interview", "dest": "/your-interview-page" },
+    { "handle": "filesystem" }
+  ]
+}
