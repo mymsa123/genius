@@ -1,10 +1,11 @@
- {
+{
   "routes": [
-    { "src": "/home", "dest": "/your-home-page" },
-    { "src": "/interviewtypes", "dest": "/your-interviewtypes-page" },
-    { "src": "/about", "dest": "/your-about-page" },
-    { "src": "/contact", "dest": "/your-contact-page" },
-    { "src": "/interview", "dest": "/your-interview-page" },
-    { "handle": "filesystem" }
+    { "handle": "filesystem" },
+    { "src": "/home", "dest": "/home.html" },
+    { "src": "/interviewtypes", "dest": "/interviewtypes.html" },
+    { "src": "/about", "dest": "/about.html" },
+    { "src": "/contact", "dest": "/contact.html" },
+    { "src": "/interview", "dest": "/interview.html" },
+    { "src": "/(.*)", "status": 404, "dest": "/404.html" }
   ]
 }
